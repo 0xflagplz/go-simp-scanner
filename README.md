@@ -6,7 +6,7 @@ Usage: > go-simp-scanner.exe <HOST> <StartingPort#> <EndingPort#>
 HOST:   
           Replace with Hostname or IP  
              EXAMPLES: 
-               scanme.nmap.com
+               scanme.nmap.org
                127.0.0.1 
 
 StartingPort#:
@@ -14,3 +14,7 @@ StartingPort#:
   
 EndingPort#:
           Replace with the ending port number. This will only include ports on the set list.
+          
+          
+   Example Outputs:
+          go-simp-scanner.exe scanme.nmap.org 20 8080   \\ This will scan every preset port between 20 and 8080
