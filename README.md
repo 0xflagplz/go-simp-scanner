@@ -1,9 +1,9 @@
 # go-simp-scanner
 simple golang port scanner
 
-Usage: > go-simp-scanner.exe <HOST> <StartingPort#> <EndingPort#>
+Usage: > go-simp-scanner.exe <HOST#> <StartingPort#> <EndingPort#>
 
-HOST:   
+HOST#:   
           Replace with Hostname or IP  
              EXAMPLES: 
                scanme.nmap.org
