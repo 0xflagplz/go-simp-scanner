@@ -1,2 +1,2 @@
 # go-simp-scanner
-basically the title...
+simple golang port scanner
